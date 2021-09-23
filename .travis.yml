@@ -4,9 +4,12 @@ node_js:
   - 12
 
 script:
-#  - npm install
   - npm run test -- --watch=false --browsers=ChromeHeadless
-  - npm run build -- --base-href "https://vincent-ve.github.io/angular-vincent/"
+  - git checkout -b gh-pages
+  - git push origin gh-pages
+  - npm install -g angular-cli-ghpages
+  - npm build --prod --base-href "https://vincent-ve.github.io/angular-vincent/"
+  - ngh --dir=dist/my-app-vincent
 
 deploy:
   provider: pages
