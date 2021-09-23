@@ -1,5 +1,7 @@
 # MyAppVincent
 
+[![Build Status](https://app.travis-ci.com/vincent-ve/angular-vincent.svg?branch=master)](https://app.travis-ci.com/vincent-ve/angular-vincent)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.7.
 
 ## Development server
