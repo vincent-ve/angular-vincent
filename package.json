@@ -2,8 +2,11 @@
   "name": "my-app-vincent",
   "version": "0.0.0",
   "scripts": {
-    "test": "ng test",
-    "build": "ng build --build /vincent-ve/angular-vincent/"
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test"
   },
   "private": true,
   "dependencies": {
