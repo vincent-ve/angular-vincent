@@ -6,4 +6,4 @@ node_js:
 script:
   - npm install
   - npm run test -- --watch=false --browsers=ChromeHeadless
-  - ng build --build /vincent-ve/angular-vincent/
+  - npm run build --build /vincent-ve/angular-vincent/
