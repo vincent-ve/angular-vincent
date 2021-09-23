@@ -1,4 +1,8 @@
 language: node_js
 
+node_js:
+  - 12
+
 script:
-  - echo "test"
+  - ng test
+  - ng build --build /vincent-ve/angular-vincent/
