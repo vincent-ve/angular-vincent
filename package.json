@@ -2,7 +2,6 @@
   "name": "my-app-vincent",
   "version": "0.0.0",
   "scripts": {
-    "ng": "ng",
     "test": "ng test",
     "build": "ng build --build /vincent-ve/angular-vincent/"
   },
