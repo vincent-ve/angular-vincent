@@ -6,7 +6,7 @@ node_js:
 script:
 #  - npm install
   - npm run test -- --watch=false --browsers=ChromeHeadless
-  - npm run build --deploy-url=/angular-vincent/dist/my-app-vincent/
+  - npm run build -- --base-href /angular-vincent/
 
 deploy:
   provider: pages
