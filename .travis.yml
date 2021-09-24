@@ -6,11 +6,12 @@ node_js:
 script:
   - npm run test -- --watch=false --browsers=ChromeHeadless
   - npm install -g angular-cli-ghpages
-  - npm run build -- --base-href /angular-vincent/
+  - npm run build
 
 deploy:
   provider: pages
   skip_cleanup: true
+  baseHref: "https://vincent-ve.github.io/angular-vincent/dist/my-app-vincent/"
   github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
   keep_history: true
   target_branch: gh-pages
